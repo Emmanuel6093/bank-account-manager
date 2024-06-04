@@ -6,7 +6,13 @@ namespace BankAccountManager
     {
         static void Main(string[] args)
         {
+            BankAccount account = new BankAccount();
+            bool running = true;
             
+            while (running)
+            {
+                
+            }
         }
     }
 }
