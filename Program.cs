@@ -40,8 +40,38 @@ namespace BankAccountManager
                             Console.WriteLine("Invalid amount.");
                         }
                         break;
+                    case "3":
+                            Console.Write("Enter amount to withdraw: ");
+                            if (double.TryParse(Console.ReadLine(), out double withdrawAmount))
+                            {
+                                if (account.Withdraw(withdrawAmount))
+                                {
+                                    Console.WriteLine($"Withdrew {withdrawAmount:C}.");
+                                }
+                                else 
+                                {
+                                    Console.WriteLine("Insufficient funds.");
+                                }
+                            }
+                            else 
+                            {
+                                Console.WriteLine("Invalid amount.");
+                            }
+                            break;
+                    case "4": 
+                        Console.WriteLine($"Your balance is {account.GetBalance():C}.");
+                        break;
+                    case "5": 
+                        running = false;
+                        Console.WriteLine("Thank you for using the Bank Account Manager. Goodbye!"); 
+                        break;
+                    default: 
+                        Console.WriteLine("Invalid option. Please try again.");
+                        break;
                 }
+                Console.WriteLine();
             }
         }
     }
 }
+
