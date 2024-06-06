@@ -1,0 +1,15 @@
+/Users/emmanue/projects/bank-account-manager/bin/Debug/net8.0/bank-account-manager
+/Users/emmanue/projects/bank-account-manager/bin/Debug/net8.0/bank-account-manager.deps.json
+/Users/emmanue/projects/bank-account-manager/bin/Debug/net8.0/bank-account-manager.runtimeconfig.json
+/Users/emmanue/projects/bank-account-manager/bin/Debug/net8.0/bank-account-manager.dll
+/Users/emmanue/projects/bank-account-manager/bin/Debug/net8.0/bank-account-manager.pdb
+/Users/emmanue/projects/bank-account-manager/obj/Debug/net8.0/bank-account-manager.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emmanue/projects/bank-account-manager/obj/Debug/net8.0/bank-account-manager.AssemblyInfoInputs.cache
+/Users/emmanue/projects/bank-account-manager/obj/Debug/net8.0/bank-account-manager.AssemblyInfo.cs
+/Users/emmanue/projects/bank-account-manager/obj/Debug/net8.0/bank-account-manager.csproj.CoreCompileInputs.cache
+/Users/emmanue/projects/bank-account-manager/obj/Debug/net8.0/bank-account-manager.sourcelink.json
+/Users/emmanue/projects/bank-account-manager/obj/Debug/net8.0/bank-account-manager.dll
+/Users/emmanue/projects/bank-account-manager/obj/Debug/net8.0/refint/bank-account-manager.dll
+/Users/emmanue/projects/bank-account-manager/obj/Debug/net8.0/bank-account-manager.pdb
+/Users/emmanue/projects/bank-account-manager/obj/Debug/net8.0/bank-account-manager.genruntimeconfig.cache
+/Users/emmanue/projects/bank-account-manager/obj/Debug/net8.0/ref/bank-account-manager.dll

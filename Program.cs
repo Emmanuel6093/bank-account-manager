@@ -75,14 +75,37 @@ namespace BankAccountManager
     }
 }
 
-public class BankAccount
-{
-    private string _name;
-    private double _balance;
-
-    public void CreateAccount(string name)
+    public class BankAccount
     {
-        _name = name;
-        _balance = 0;
+        private string _name;
+        private double _balance;
+
+        public void CreateAccount(string name)
+        {
+            _name = name;
+            _balance = 0;
+        }
+
+        public void Deposit(double amount)
+        {
+            _balance += amount;
+        }
+
+        public bool Withdraw(double amount)
+        {
+            if (_balance >= amount)
+            {
+                _balance -= amount;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public double GetBalance()
+        {
+            return _balance;
+        }
     }
-}
