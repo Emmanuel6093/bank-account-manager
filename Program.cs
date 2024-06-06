@@ -75,3 +75,14 @@ namespace BankAccountManager
     }
 }
 
+public class BankAccount
+{
+    private string _name;
+    private double _balance;
+
+    public void CreateAccount(string name)
+    {
+        _name = name;
+        _balance = 0;
+    }
+}
